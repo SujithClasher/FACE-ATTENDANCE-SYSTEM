@@ -1,10 +1,9 @@
-
 import face_recognition as fr
 from threading import Thread
 import numpy as np
 import time
 import os
-from cv2 import cv2
+import cv2
 
 exclude_names = ['Unknown', 'HOD', 'Principal']
 
